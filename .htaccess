@@ -1,0 +1,6 @@
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ httpS://www.mobilesignalboosterpune.in/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST}  ^mobilesignalboosterpune.in [nocase]
+RewriteRule ^(.*)         httpS://www.mobilesignalboosterpune.in/$1 [last,redirect=301]
